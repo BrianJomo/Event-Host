@@ -56,3 +56,20 @@ class Event(models.Model):
 			thing = "Future"
 		return thing
 
+
+
+class Category(models.Model):
+    categoryName = models.CharField(max_length=30)
+
+    def saveCategory(self):
+        self.save()
+
+    def deleteCategory(self):
+        self.delete()
+
+    @classmethod
+    def updateCategory(cls, id, value):
+        cls.objects.filter(id=id).update(Event=value)
+
+    def __str__(self):
+        return self.categoryName
