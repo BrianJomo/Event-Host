@@ -1,3 +1,49 @@
+### Setting up environment variables
+
+Create a `.env` file and paste paste the following and fill where appropriate:
+
+```
+SECRET_KEY='**'
+DEBUG=True
+DB_NAME='****'
+DB_USER='<your database name>'
+DB_PASSWORD='<password to your database>'
+DB_HOST='127.0.0.1'
+MODE='dev'
+ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'
+DISABLE_COLLECTSTATIC=1
+CLOUD_NAME= '*****'
+API_KEY='****'
+API_SECRET='****'
+```
+
+Then run the following commands in the terminal then run the manage.py file in order to run the web application.
+
+```
+$ python3.8 -m venv --without-pip virtual
+
+$ source virtual/bin/activate
+
+$ curl https://bootstrap.pypa.io/get-pip.py | python
+
+$ pip3 install -r requirements.txt 
+
+$ python3.8 manage.py check
+
+$ python3.8 manage.py makemigrations <installed app name>
+
+$ python3.8 manage.py sqlmigrate <installed app name> 0001
+
+$ python3.8 manage.py migrate
+
+$ python3 manage.py runserver
+
+```
+
+To explore the features of this neighbourhood website application navigate to this link on your browser or just click on this link: https://event-host.herokuapp.com/
+
+
+
 ## Technology Used
 
 * Python - Which was used to structure and build the logic hence interactive with the client-side and server-side.
