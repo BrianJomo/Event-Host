@@ -79,7 +79,7 @@ $ python3 manage.py runserver
 
 ```
 
-To explore the features of this neighbourhood website application navigate to this link on your browser or just click on this link: https://event-host.herokuapp.com/
+To explore the features of this event website application navigate to this link on your browser or just click on this link: https://event-host.herokuapp.com/
 
 
 
