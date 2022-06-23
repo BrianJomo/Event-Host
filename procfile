@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath Eventhost Eventhost.wsgi --log-file -
+web: gunicorn Eventhost.wsgi --log-file -
