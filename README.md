@@ -1,3 +1,42 @@
+# Event Host
+
+##### By Brian Jomo.
+
+### It is a description of the Event host App.
+
+## Table of Content
+
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
+
+## Description
+
+<p>he project involves creating a website where web users can create secure accounts, post events and view events from all over the world. Users can also view different event categories and get ticket confirmation emails.</P>
+
+## Installation
+
+To gain acess to this application click on this link: https://github.com/BrianJomo/Event-Host
+### Requirements
+
+* Either a computer,phone,tablet or an Ipad.
+
+* An access to the Internet.
+
+### Installation Process
+
+To access this application, type the following command in your terminal to have a local copy of the application.
+```
+https://github.com/BrianJomo/Event-Host.git
+```
+and for SSH, use the following command;
+```
+git@github.com:BrianJomo/Event-Host.git
+```
+
 ### Setting up environment variables
 
 Create a `.env` file and paste paste the following and fill where appropriate:
